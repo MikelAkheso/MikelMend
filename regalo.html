@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo de San Valentín</title>
+    <!-- Enlaces a los archivos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="bodyregalo">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">&#129322;¿¿!UUUoOOOoo Que será!??&#128562;</h2>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center">Que lo abra , que lo abra!!! &#127873;</p>
+                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#popupRegalo">Abrir Regalo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup del regalo -->
+    <div class="modal fade" id="popupRegalo" tabindex="-1" role="dialog" aria-labelledby="popupRegaloLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupRegaloLabel">Viaje a Córdoba 4 días!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="foto" src="cordoba.jpg" />
+                    <br/>
+                    <p>Detalles del regalo:</p>
+                    <ul>
+                        <li>Translados with audish</li>
+                        <li>Hotel divino de la muerte</li>
+                        <li>Visitas por doquier</li>
+                        <!-- Agrega más detalles si es necesario -->
+                    </ul>
+                    <p>Ti amo mi princess, a disfrutar esta escapada!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

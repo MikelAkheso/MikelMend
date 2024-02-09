@@ -1,0 +1,54 @@
+#bodylogin{
+    background-image: url(corazonesfondo.jpg) ;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+#bodyregalo{
+    background-image: url(love.jpg) ;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+.cajalogin{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.card-header, .card-body{
+    border-color: pink;
+}
+
+.button{
+    background-color: rgba(255, 198, 251, 0.6)
+}
+.button:focus{
+    background-color: rgba(249, 169, 244, 0.6)
+}
+
+.textologin{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#iconolabel{
+  font-size: 40px;
+}
+
+#foto{
+    width: 80%;
+    border: 5px solid rgba(120, 118, 118, 0.6);
+    border-radius: 2px;
+}
