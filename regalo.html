@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="bodyregalo">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var el = document.documentElement;
+            var requestFullScreen = el.requestFullscreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+
+            if (requestFullScreen) {
+                requestFullScreen.call(el);
+            }
+        });
+    </script>
     <div class="container mt-1">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -52,6 +62,7 @@
                     <br/>
                     <p>Detalles del regalo:</p>
                     <ul>
+                        <li>Del 15 al 19 de Marzo</li>
                         <li>Translados with audish</li>
                         <li>Hotel divino de la muerte</li>
                         <li>Visitas por doquier</li>

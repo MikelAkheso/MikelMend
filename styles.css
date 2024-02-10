@@ -1,3 +1,9 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 #bodylogin{
     background-image: url(corazonesfondo.jpg) ;
     min-height: 100%;

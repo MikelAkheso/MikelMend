@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="bodylogin">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var el = document.documentElement;
+            var requestFullScreen = el.requestFullscreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullscreen;
+
+            if (requestFullScreen) {
+                requestFullScreen.call(el);
+            }
+        });
+    </script>
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-10">
