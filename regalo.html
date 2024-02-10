@@ -2,23 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation=landscape">
     <title>Regalo de San Valentín</title>
     <!-- Enlaces a los archivos CSS de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="bodyregalo">
-    <div class="container mt-5">
+    <div class="container mt-1">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="card">
+            <div class="col-md-9">
+                <div class="card mb-5">
                     <div class="card-header">
-                        <h2 class="text-center">&#129322;¿¿!UUUoOOOoo Que será!??&#128562;</h2>
+                        <div>
+                            <img class="mt-2" id="fotonosotros" src="nosotros.jpeg" />
+                            <h4 class="text-center"> &#129505;
+                            </h4>
+                            <p class="text-center">Por muchos más momentos como este.
+                            </p>
+                            <h4 class="text-center"> &#129505;
+                            </h4>
+                            <p class="text-center">
+                                Aquí bajo tienes un regalito, espero que te guste!!
+                            </p>
+                        </div>
                     </div>
+                    <h5 class="text-center pt-2">&#129322;¿¿!UUUoOOOoo Que será!??&#128562;</h5>
                     <div class="card-body">
+                        <button type="button" class="btn btn-block button" data-toggle="modal" data-target="#popupRegalo">Abrir Regalo</button>
                         <p class="text-center">Que lo abra , que lo abra!!! &#127873;</p>
-                        <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#popupRegalo">Abrir Regalo</button>
                     </div>
                 </div>
             </div>

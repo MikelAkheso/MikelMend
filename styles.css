@@ -7,6 +7,7 @@
     position: relative;
     overflow: hidden;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 #bodyregalo{
@@ -18,6 +19,7 @@
     position: relative;
     overflow: hidden;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
   }
 
 .cajalogin{
@@ -49,6 +51,14 @@
 
 #foto{
     width: 80%;
+    border: 5px solid rgba(120, 118, 118, 0.6);
+    border-radius: 2px;
+}
+
+#fotonosotros{
+    float: left;
+    margin-right: 5px;
+    width: 50%;
     border: 5px solid rgba(120, 118, 118, 0.6);
     border-radius: 2px;
 }
